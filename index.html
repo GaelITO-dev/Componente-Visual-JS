@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3. Componente Visual con JS</title>
+    <link rel="stylesheet" href="css/componente.css">
+    <script src="js/componente.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Componente Visual con JS</h1>
+        <p>
+          Ejemplo de Componente reutilizable en JS que muestra notificaciones en tiempo real
+        </p>
+
+        <div>
+            <button onclick="mostrarToast('Tarea Completada','success')">Toast de exito </button>
+        </div>
+        <div>
+        <button onclick="mostrarToast('Ocurrió un error','error')">Toast Error</button>
+        </div>
+        <div>
+        <button onclick="mostrarToast('Error en el sistema','warning')">Toast Advertencia</button>
+        </div>
+        <div>
+        <button onclick="mostrarToast('Acceso Valido','info')">Toast Información</button>
+        </div>
+    </div>
+   
+</body>
+</html>
